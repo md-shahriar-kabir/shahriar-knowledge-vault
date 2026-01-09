@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Shared Sytle  */
+/* Shared Sytle */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -31,7 +31,6 @@ header{
 nav{
     width: 88%;
     max-width: 1360px;
-    /* border: 1px solid aqua; */
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -41,9 +40,7 @@ nav .menu{
     display: flex;
     list-style-type: none;
     gap: 32px;
-    /* align-items: center; */
 }
-
 nav .menu a{
     font-size: 16px;
     color:#000000 ;
@@ -54,8 +51,7 @@ nav .menu li a:hover{
     color: #30B868;
 }
 
-
-/* banner */
+/* banner Start */
 .banner {
   background: url("../assets/hero-bg.png");
   position: relative;
@@ -113,37 +109,35 @@ nav .menu li a:hover{
     cursor: pointer;
 }
 
-/* Notes section */
+/* Notes section Start */
 .notes {
     width: 88%;
     margin: auto 100px;
-  text-align: center;
-  padding: 30px;
+    text-align: center;
+    padding: 30px;
 }
 .notes p{
     margin-top: 10px;
 }
 .cards {
+  width: 88%;
   display: flex;
-  gap: 20px;
-  margin: 40px 120px;
-  /* padding: ; */
+  gap: 25px;
+  margin: 60px auto;
+  align-items: center;
 }
-
 .card {
   background: #fff;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
-
 .icon {
-  font-size: 30px;
+  /* font-size: 30px; */
   margin-bottom: 10px;
 }
 
-
-/* SOLUTION */
+/* Brain SOLUTION Start*/
 .solution {
     width: 88%;
     margin: auto 100px;
@@ -152,16 +146,13 @@ nav .menu li a:hover{
     align-items: center;
     padding-bottom: 60px;
 }
-
 .label {
   color: #30B868;
   font-weight: 700;
 }
-
 .solution ul {
   margin-top: 20px;
 }
-
 .solution li {
   display: flex;
   gap: 5px;
@@ -169,33 +160,29 @@ nav .menu li a:hover{
   align-items: center;
 }
 
-/* Ready to Think */
+/* Ready to Think Start*/
 .ready {
   width: 88%;
   background: #f8f6ef;
   text-align: center;
   padding: 80px 20px;
   margin: auto 100px;
-  
 }
 .ready p{
     margin-bottom: 20px;
 }
-
 .ready small {
   display: block;
   margin-top: 20px;
   color: #64748b;
 }
 
-
-/* FOOTER */
+/* FOOTER Start*/
 .footer {
   background: #06172b;
   color: #fff;
   padding: 60px 20px;
 }
-
 .footer-content {
     width: 88%;
     margin: auto 100px;
