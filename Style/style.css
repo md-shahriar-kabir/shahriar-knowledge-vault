@@ -181,23 +181,24 @@ nav .menu li a:hover{
 .footer {
   background: #06172b;
   color: #fff;
-  padding: 60px 20px;
 }
 .footer-content {
     width: 88%;
-    margin: auto 100px;
+    margin: 80px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 60px;
 }
 .social span{
   transition: 0.5s;
 }
 .copy {
+  width: 88%;
   text-align: center;
-  margin-top: 40px;
+  margin:0px auto;
   font-size: 14px;
   opacity: 0.7;
   border-top: 1px solid rgb(57, 141, 232);
-  padding-top: 20px;
+  padding: 20px;
 }
