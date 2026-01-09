@@ -82,10 +82,13 @@ nav .menu li a:hover{
   border-radius: 20px;
   margin: 16px auto;
   transition: 0.3s;
-  
+}
+.earlybtn span:hover{
+  background-color: white;
+  border-radius: 10px;
 }
 .earlybtn:hover{
-  background-color: #7df1ae;
+  background-color: #30B868;
   color: #ffffff;
   cursor: pointer;
 }
