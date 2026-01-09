@@ -57,7 +57,7 @@ nav .menu li a:hover{
 
 /* banner */
 .banner {
-  background: url("/assets/hero-bg.png");
+  background: url("../assets/hero-bg.png");
   position: relative;
   color: #fff;
 }
@@ -74,10 +74,10 @@ nav .menu li a:hover{
 .earlybtn {
   width: 15%;
   display: flex;
-  gap: 10px;
+  gap: 5px;
   background: #ffffff;
   color: #30B868;
-  padding: 6px 14px;
+  padding: 10px 14px;
   border-radius: 20px;
   margin: 16px auto;
   transition: 0.3s;
@@ -202,10 +202,6 @@ nav .menu li a:hover{
 .social span{
   transition: 0.5s;
 }
-.social span a:hover{
-  color: #30B868;
-}
-
 .copy {
   text-align: center;
   margin-top: 40px;
